@@ -1,0 +1,9 @@
+diff a/src/dao/BaseDAO.java b/src/dao/BaseDAO.java	(rejected hunks)
+@@ -0,6 +0,7 @@
+ import java.sql.Statement;
+ 
+ public class BaseDAO {
++	String DRIVER = "oracle.jdbc.driver.OracleDriver";
+ 	String URL = "jdbc:oracle:thin:@localhost:1521:xe";
+ 	String USER = "madang";
+ 	String PASSWORD = "madang";
